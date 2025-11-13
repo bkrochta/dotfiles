@@ -7,7 +7,8 @@ if [ ! -x "$(command -v zsh)" ]; then
     exit 1
 fi
 
-SRC="$(pwd)/zsh"
+DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SRC="$DOTFILES_DIR/zsh"
 TARGET="$HOME/.zsh"
 
 # Create symbolic link for zsh configuration if needed
