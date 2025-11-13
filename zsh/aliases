@@ -24,16 +24,11 @@ ex ()
 
 # ls aliases
 alias ls='ls --color=auto'
-alias ll='ls -l'
 alias l='ls -lFh --color=auto'     #size,show type,human readable
 alias la='ls -lAFh --color=auto'   #long list,show almost all,show type,human readable
 alias lr='ls -tRFh --color=auto'   #sorted by date,recursive,show type,human readable
 alias lt='ls -ltFh --color=auto'   #long list,sorted by date,show type,human readable
-alias ll='ls -l --color=auto'      #long list
-alias ldot='ls -ld .* --color=auto'
-alias lS='ls -1FSsh --color=auto'
-alias lart='ls -1Fcart --color=auto'
-alias lrt='ls -1Fcrt --color=auto'
+alias ll='ls -lh --color=auto'      #long list
 
 alias grep='grep --color'
 
