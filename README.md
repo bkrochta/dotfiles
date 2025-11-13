@@ -1,6 +1,6 @@
-# configs
+# dotfiles
 
-Config files are kept where this repo is cloned and are read through symbolic links.
+Config files are kept where this repo is cloned and are read through symbolic links and sourcing.
 
 ## Installation
 
